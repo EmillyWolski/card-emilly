@@ -1,6 +1,6 @@
 body{
     font-family: 'Outfit', sans-serif;
-    background-color: var(--blueBackgroundColor);
+    background-color: var(--darkBlue);
 }
 
 .container{
@@ -13,25 +13,25 @@ body{
 
 .container .card{
     background-color: var(--white);
-    max-width: 255px;
+    max-width: 320px;
     border-radius: 15px;
     padding: 15px;
 }
 
-.container .card .imagem-qr-code{
-    display: flex;
-    max-width: 230px;
-    max-height: 230px;
-    border-radius: 10px;
-}
-
-.container .card .imagem-qr-code img{
+.container .card .imagem-perfil{
+    max-width: 140px;
+    max-height: 140px;
+    border-radius: 15px;
+    padding-top: 8px;
+    margin-left: 75px;
     border-radius: 15px;
     width: 100%;
 }
 
+
 .container .card .titulo h1{
-    font-size: 18px;
+    color: var(--darkBlue);
+    font-size: 20px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -40,4 +40,35 @@ body{
 .container .card p{
     font-size: 14px;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.container .card .tecnologias-utilizadas{
+    padding: 10px;
+    text-align: center;
+    color: var(--darkBlue);
+}
+
+.container .card .btn{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    align-items: center;
+    margin-left: 38px;
+}
+
+.container .card .btn a{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--darkBlue);
+    color: white;
+    border-radius: 30px;
+    border-style: none;
+    padding: 8px;
+    text-align: center;
+}
+
+.container .card .btn a:hover{
+    background-color: var(--blueBackgroundColor);
+    color: var(--darkBlue);
+    transition: all 0.4s ease-in-out;
 }

@@ -1,14 +1,14 @@
-# Frontend Mentor - Card component
+# Card pessoal
 
-<img src="./src/images/card.gif" alt="Gif do layout" widht="420px" height="320px">
+<img src="./src/images/gif-card.gif" alt="Gif do layout" widht="420px" height="320px">
 
-## Desafio ✨
+## Card ✨
 
-Proposto pelo [Frontend Mentor](https://www.frontendmentor.io) , esse é um card simples que contém uma imagem, um título e um parágrafo. Com esse desafio foi possível praticar alguns conceitos básicos do HTML e CSS, como a estruturação de classes e tags, além da utilização de flex para posicionamentos e variáveis no CSS.
+Esse é um card pessoal que contém uma imagem, um título e parágrafos. Foi possível praticar alguns conceitos básicos do HTML e CSS, como a estruturação de classes e tags, além da utilização de flex para posicionamentos e variáveis no CSS.
 
 <br>
 
-## Detalhes importantes:
+## Detalhes simples, mas importantes:
 - Download de fontes do Google e ícones do Font Awesome.
 - Responsividade desktop e mobile.
 - Utilização de propriedades como o flex.
